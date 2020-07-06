@@ -1,4 +1,4 @@
-This file contains all the projects I have done through learning with Dr Andrew Ng's Machine Learning course on Coursea: https://www.coursera.org/learn/machine-learning.
+This file contains all the projects I have done and which i am doing through learning with Dr Andrew Ng's Machine Learning course on Coursea: https://www.coursera.org/learn/machine-learning.
 
 The course provided a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics included:
 
