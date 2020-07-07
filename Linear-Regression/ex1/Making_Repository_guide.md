@@ -2,7 +2,7 @@
 # GIT REPOSITORY HOW-TO GUIDE 
 ### git init/ git clone / git config
 
-A *[git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)* is a virtual storage of your project, allowing to save versions of your code and to acess when needed.
+A *[git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)* is a virtual storage of your project, allowing to save versions of your code and to access when needed.
 
 ## SETTING UP A REPOSITORY (Repo) UNDER THE GIT VERSION CONTROL
 
@@ -15,3 +15,7 @@ Assuming you already have a project directory and you would like to create a rep
 * First cd into root project directory 
 * execute **git init** 
 This will as mentioned above create same **.git** subdirectory but scoped to that project dir.
+
+### CLONING AN EXISTING REPO
+If a project has been set up in a central repository, the **clone** command is the most common way to obtain a local development clone.Once a developer(contibutor) has obtained a working copy, all version control operations are managed through their local repository.
+    git clone <repo url>
