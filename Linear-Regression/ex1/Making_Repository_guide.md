@@ -5,6 +5,7 @@
 A *[git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)* is a virtual storage of your project, allowing to save versions of your code and to access when needed.
 
 ## SETTING UP A REPOSITORY (Repo) UNDER THE GIT VERSION CONTROL
+*[How to set-up Git on your device]()
 
 ### Initializing a new repository: **git init**
 To create a new repo, you'll use the **git init** command. git init is a one-time command you use during the initial setup of a new repo. Executing this command will create a new **.git**   subdirectory in your current working directory. This will also create a new branch called master. 
@@ -35,4 +36,11 @@ If a project has been set up in a central repository, the **clone** command is t
  2. Commit those changes
  
         git commit -m "Message about the commit"
-        
+
+### Collaboration
+**git push**
+
+If *git clone* was used in initializing a new repository , then this repo is already configured for remote collaboration. 
+git clone  will automatically configure the repo with a remote pointed to the Git URL cloned it from. This means that once changes made to a file are committed, they  can be pushed using **git push** those changes to the remote repository.
+
+If you prefer to host your own remote repo initialized with *git init*, you'll need to set up a "Bare Repository." Both git init and git clone accept a --bare argument. The most common use case for bare repo is to create a remote central Git repository
