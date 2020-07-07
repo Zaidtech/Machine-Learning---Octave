@@ -28,11 +28,11 @@ If a project has been set up in a central repository, the **clone** command is t
  ### Saving changes to the repo
  **git add / git commit**
  Once you have completed with cloning and and working on project
- * add changes to staging area    
+ 1. add changes to staging area    
      
        git add <file names or the whole dir(./ )>
  
- * Commit those changes
+ 2. Commit those changes
  
         git commit -m "Message about the commit"
         
