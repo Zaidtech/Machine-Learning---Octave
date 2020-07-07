@@ -16,7 +16,7 @@ Assuming you already have a project directory and you would like to create a rep
 * execute **git init** 
 This will as mentioned above create same **.git** subdirectory but scoped to that project dir.
 
-### CLONING AN EXISTING REPO
+### Cloning an existing repo
 If a project has been set up in a central repository, the **clone** command is the most common way to obtain a local development clone.Once a developer(contibutor) has obtained a working copy, all version control operations are managed through their local repository.
     
     git clone <repo url>
