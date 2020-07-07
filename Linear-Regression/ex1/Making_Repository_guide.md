@@ -23,5 +23,4 @@ If a project has been set up in a central repository, the **clone** command is t
     
  git clone creates a local clone of remote repo. 
  
- The URL can be found on this page under **CODE** dropdown.
- [COPY URL AND START CONTRIBUTING](https://github.com/auvzhcet/Documentation)
+ The URL can be found on this page under **CODE** dropdown can be found [on this page](https://github.com/auvzhcet/Documentation)
