@@ -2,7 +2,7 @@
 # GIT REPOSITORY HOW-TO GUIDE 
 ### git init/ git clone / git config
 
-A *git repository* is a virtual storage of your project, allowing to save versions of your code and to acess when needed.
+A *[git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)* is a virtual storage of your project, allowing to save versions of your code and to acess when needed.
 
 ## SETTING UP A REPOSITORY (Repo) UNDER THE GIT VERSION CONTROL
 
