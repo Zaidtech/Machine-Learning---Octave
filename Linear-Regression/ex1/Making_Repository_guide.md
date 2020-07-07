@@ -12,7 +12,7 @@ To create a new repo, you'll use the **git init** command. git init is a one-tim
 ### Versioning an existing project with a new git repository
 Assuming you already have a project directory and you would like to create a repo within it:
 
-* First cd into root project directory 
+* First cd into root project directory.
 * execute **git init** 
 This will as mentioned above create same **.git** subdirectory but scoped to that project dir.
 
@@ -23,4 +23,4 @@ If a project has been set up in a central repository, the **clone** command is t
     
  git clone creates a local clone of remote repo. 
  
- The URL can be found on this page under **CODE** dropdown can be found [on this page](https://github.com/auvzhcet/Documentation)
+ The URL can be found on this page under **CODE** dropdown can be found [on this page.](https://github.com/auvzhcet/Documentation)
