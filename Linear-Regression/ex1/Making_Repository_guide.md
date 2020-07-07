@@ -1,6 +1,6 @@
 
 # GIT REPOSITORY HOW-TO GUIDE 
-### git init/ git clone / git config
+### git init/ git clone
 
 A *[git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)* is a virtual storage of your project, allowing to save versions of your code and to access when needed.
 
@@ -24,3 +24,15 @@ If a project has been set up in a central repository, the **clone** command is t
  git clone creates a local clone of remote repo. 
  
  The URL can be found on this page under **CODE** dropdown can be found [on this page.](https://github.com/auvzhcet/Documentation)
+ 
+ ### Saving changes to the repo
+ **git add / git commit**
+ Once you have completed with cloning and and working on project
+ * add changes to staging area    
+     
+       git add <file names or the whole dir(./ )>
+ 
+ * Commit those changes
+ 
+        git commit -m "Message about the commit"
+        
