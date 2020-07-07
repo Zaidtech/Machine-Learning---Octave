@@ -18,4 +18,10 @@ This will as mentioned above create same **.git** subdirectory but scoped to tha
 
 ### CLONING AN EXISTING REPO
 If a project has been set up in a central repository, the **clone** command is the most common way to obtain a local development clone.Once a developer(contibutor) has obtained a working copy, all version control operations are managed through their local repository.
+    
     git clone <repo url>
+    
+ git clone creates a local clone of remote repo. 
+ 
+ The URL can be found as can be seen by the picture:
+ ![COPY URL](shorturl.at/uCGQ6)
