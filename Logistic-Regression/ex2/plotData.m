@@ -12,17 +12,16 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-
-
-
-
-
-
-
-
+pos = find(y==1);
+% To get the indices of all the positive values
+neg = find(y==0);
+% To get the indices of all the negative values 
+plot(X(pos,1), X(pos, 2), 'b+')
+hold on ;
+% to plot all the positive i.e marks of all the students who got admission
+plot(X(neg,1), X(neg, 2), 'ro')
+% to plot all the positive i.e marks of all the students who do not admission
 % =========================================================================
-
-
 
 hold off;
 
