@@ -17,9 +17,9 @@ p = zeros(m, 1);
 
 for i = 1:m
   if sigmoid(X*theta)(i) >= 0.5
-   p(i) = 1
+   p(i) = 1;
   else
-   p(i) = 0
+   p(i) = 0;
   endif  
 endfor
 
